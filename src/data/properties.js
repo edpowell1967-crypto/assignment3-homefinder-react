@@ -1,0 +1,148 @@
+const properties = [
+  {
+    id: 1,
+    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+    address: "18 Brookside Circle",
+    city: "Greenville, SC",
+    price: 389000,
+    beds: 4,
+    baths: 3,
+    sqft: 2480,
+    description:
+      "A welcoming brick home with a bright, open living area, a spacious primary suite, and a shaded backyard minutes from downtown Greenville.",
+  },
+  {
+    id: 2,
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+    address: "704 Laurel Creek Drive",
+    city: "Greenville, SC",
+    price: 315000,
+    beds: 3,
+    baths: 2,
+    sqft: 1860,
+    description:
+      "Well-kept one-story home featuring a comfortable living room, updated kitchen, and a private patio in an established neighborhood.",
+  },
+  {
+    id: 3,
+    image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=80",
+    address: "92 Summit Ridge Way",
+    city: "Greenville, SC",
+    price: 525000,
+    beds: 4,
+    baths: 3.5,
+    sqft: 3020,
+    description:
+      "Spacious two-story residence with a dedicated home office, generous entertaining spaces, and mountain views from the covered porch.",
+  },
+  {
+    id: 4,
+    image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80",
+    address: "2617 Pecan Hollow Lane",
+    city: "McKinney, TX",
+    price: 465000,
+    beds: 4,
+    baths: 3,
+    sqft: 2760,
+    description:
+      "A light-filled family home with an open-plan kitchen, flexible upstairs game room, and a fenced yard for outdoor gatherings.",
+  },
+  {
+    id: 5,
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    address: "1530 Willow Bend Court",
+    city: "McKinney, TX",
+    price: 359000,
+    beds: 3,
+    baths: 2,
+    sqft: 1985,
+    description:
+      "Easy single-level living with a welcoming entry, open dining area, and a covered back patio in a quiet residential community.",
+  },
+  {
+    id: 6,
+    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+    address: "4821 Meadowlark Trail",
+    city: "McKinney, TX",
+    price: 615000,
+    beds: 5,
+    baths: 4,
+    sqft: 3480,
+    description:
+      "Roomy two-story home offering a downstairs guest suite, spacious kitchen, upstairs media room, and a landscaped backyard.",
+  },
+  {
+    id: 7,
+    image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1200&q=80",
+    address: "809 Cedar Elm Drive",
+    city: "Allen, TX",
+    price: 429000,
+    beds: 4,
+    baths: 2.5,
+    sqft: 2410,
+    description:
+      "Comfortable two-story home with an open kitchen and living area, spacious bedrooms, and a private fenced backyard.",
+  },
+  {
+    id: 8,
+    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+    address: "1213 Spring Meadow Lane",
+    city: "Allen, TX",
+    price: 339000,
+    beds: 3,
+    baths: 2,
+    sqft: 1740,
+    description:
+      "A practical, thoughtfully laid-out home with a sunny breakfast nook, comfortable primary suite, and low-maintenance outdoor space.",
+  },
+  {
+    id: 9,
+    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+    address: "570 Oak Hollow Court",
+    city: "Allen, TX",
+    price: 559000,
+    beds: 4,
+    baths: 3.5,
+    sqft: 3150,
+    description:
+      "Well-appointed home with a bright family room, generous kitchen island, dedicated study, and covered outdoor living area.",
+  },
+  {
+    id: 10,
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+    address: "4330 Prairie Rose Drive",
+    city: "Frisco, TX",
+    price: 585000,
+    beds: 4,
+    baths: 3,
+    sqft: 2890,
+    description:
+      "Modern two-story home with an open-concept main floor, versatile loft, and a covered patio suited to relaxed evenings outside.",
+  },
+  {
+    id: 11,
+    image: "https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=1200&q=80",
+    address: "9821 Silver Maple Way",
+    city: "Frisco, TX",
+    price: 749000,
+    beds: 5,
+    baths: 4,
+    sqft: 3820,
+    description:
+      "Spacious home with a downstairs guest bedroom, large upstairs game room, generous storage, and a landscaped private yard.",
+  },
+  {
+    id: 12,
+    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+    address: "2765 Bluebonnet Ridge",
+    city: "Frisco, TX",
+    price: 499000,
+    beds: 4,
+    baths: 2.5,
+    sqft: 2525,
+    description:
+      "Inviting home with a spacious kitchen, flexible front room for work or hobbies, and a backyard with room to unwind.",
+  },
+];
+
+export default properties;

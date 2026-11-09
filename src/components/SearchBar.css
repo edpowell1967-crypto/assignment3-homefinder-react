@@ -1,0 +1,8 @@
+.search-bar input {
+  min-width: 0;
+  padding-right: 42px;
+}
+
+.search-bar input::-webkit-search-cancel-button {
+  cursor: pointer;
+}
